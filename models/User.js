@@ -11,6 +11,12 @@ const userSchema = new Schema({
         default: "https://res.cloudinary.com/dol6lso5o/image/upload/v1602752712/uv/docuovidie_a4o76c.jpg",
     },
     password: String,
+    // role: {
+    //     type: String,
+    //     enum: ["admin", "user"],
+    //     default: "user",
+    // },
+
     is_admin: {
         type: Boolean,
         default: "false",
