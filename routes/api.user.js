@@ -1,6 +1,4 @@
-// var express = require('express');
-// var router = express.Router();
-const router = new require("express").Router();
+const router = new require("express").Router(); // creates new router function to handle new object
 const UserModel = require("../models/User");
 
 // GET

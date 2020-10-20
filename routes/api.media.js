@@ -1,4 +1,4 @@
-const router = new require("express").Router();
+const router = new require("express").Router(); // creates new router function to handle new object
 const MediaModel = require("../models/Media");
 
 // GET

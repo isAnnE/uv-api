@@ -8,10 +8,11 @@ mongoose.connect(process.env.MONGO_URI, {
 });
 
 mongoose.connection.on("connected", () =>
-  console.log("yay mongodb connected :)")
+  console.log("Super, mon app est connectée !")
 );
 
 mongoose.connection.on("error", () =>
-  console.log("nay db connection error :(")
+  console.log("Erreur de connection de l'app")
 );
 
+// doc @ https://mongoosejs.com/
