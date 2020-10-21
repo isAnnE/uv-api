@@ -1,4 +1,4 @@
-require("dotenv").config();
+// require("dotenv").config(); // comment pour mise en ligne
 require("./config/mongo");
 
 const createError = require('http-errors');
@@ -15,7 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.use(express.json());
-app.use(cors(["https://ultraviolettes-back.herokuapp.com/", "https://ultraviolettes.herokuapp.com/"]));
+app.use(cors(["https://git.heroku.com/ultraviolettes-back.git", "https://ultraviolettes.herokuapp.com/"]));
 
 app.use(logger('dev'));
 app.use(express.json());
