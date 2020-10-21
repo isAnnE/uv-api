@@ -9,12 +9,6 @@ const mediaSchema = new Schema({
     genre: String,
     extract: String,
     photo: String,
-    // photo: {
-    //     url: {
-    //         type: String,
-    //         default: "AJOUTER",
-    //     }
-    // },
     directed_by: String,
     written_by: String,
     produced_by: String,
